@@ -2,11 +2,12 @@
 Start a jupyter notebook with docker
 
 
-For start a docker container: 
+First build your docker container: 
 ```bash
-docker run -it --rm --name jupyter -p 8888:8888 jupyter/datascience-notebook
+./build.sh
 ```
-Enter the bash 
+
+The run and have fun!
 ```bash
-docker exec -it jupyter bash
+./start.sh
 ```
