@@ -11,3 +11,8 @@ The run and have fun!
 ```bash
 ./start.sh
 ```
+
+To enter docker bash
+```bash
+docker exec -it jupyter bash
+```
